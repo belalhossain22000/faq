@@ -51,6 +51,7 @@ img {
 
 .accordion-header {
   padding-left: 30px;
+  padding-right: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #334fba;
@@ -59,8 +60,16 @@ img {
   border-radius: 8px;
   margin-bottom: 40px;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
+.arrow{
+    display: flex;
+    flex-direction: column;
+    
+}
 .accordion-content {
   display: none;
   padding: 30px;
@@ -79,6 +88,9 @@ img {
     }
     main{
         width: 100%;
+    }
+    .main-secton{
+    margin-top:50px ;
     }
     .left{
         width: 100%;
