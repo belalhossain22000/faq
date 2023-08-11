@@ -44,10 +44,7 @@ img {
   margin: 0 auto;
 }
 
-.accordion-item {
-  /* rder: 1px solid #ddd;
-  margin-bottom: 5px; bo */
-}
+
 
 .accordion-header {
   padding-left: 30px;
@@ -58,7 +55,6 @@ img {
   cursor: pointer;
   font-size: 24px;
   border-radius: 8px;
-  margin-bottom: 40px;
   color: white;
   display: flex;
   align-items: center;
@@ -71,16 +67,20 @@ img {
     
 }
 .accordion-content {
+    border-radius: 8px;
   display: none;
   padding: 30px;
   font-size: 20px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Add an active class to show content */
 .accordion-item.active .accordion-content {
   display: block;
 }
-
+.accordion-item{
+    margin-bottom: 40px;
+}
 
 @media screen and (max-width: 768px) {
     h2{
